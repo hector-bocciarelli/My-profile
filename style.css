@@ -1,0 +1,173 @@
+/*Color and fonts */
+body {
+  background-color: #F7F9FC;
+  color: #575F7D;
+  font-family: "Arima", system-ui ;
+  text-align:justify;
+  font-size: 16;
+  font-weight: light;
+}
+
+h1 {
+  color: #575F7D;
+  font-family: tahoma ;
+  font-weight: 800;
+  letter-spacing: 4px;
+  font-size: 30px;
+  }
+
+h2 {
+  font-family: tahoma;
+  font-weight: lighter;
+  color: #a9c6d8;
+  letter-spacing: 2px;
+  text-shadow: 0px 1px 1px rgba(0,0,0,0.5)
+}
+
+a{
+  text-decoration: none;
+  font-weight: 800px;
+  color: #6B72E1;
+}
+
+a:hover {
+  color:#121276;
+}
+
+
+/*Class design*/
+.container {
+  width: 750px;
+  margin: 40px auto;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 700px;
+    body {
+      font-size: 16px;
+       }
+    h1 {
+      font-size: 28px;
+      }
+    .card-white {
+      padding: 40px;
+  }
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 600px;
+  body {
+    font-size: 15px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  .card-white {
+    padding: 35px;
+  }
+  }
+}
+@media (max-width: 770px) {
+  .container {
+    width: 500px;
+  body {
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 23px;
+  }
+  .card-white {
+    padding: 30px;
+    margin: 15px 0;
+  }
+  .btn-blue {
+    padding: 10px 15px;
+  }
+  }
+}
+
+@media (max-width: 580px) {
+  .container {
+    width: 400px;
+  body {
+    font-size: 13px;
+  }
+  h1 {
+    font-size: 22px;
+  }
+  .card-white {
+    padding: 25px;
+  }
+  .btn-blue {
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+  }
+}
+
+
+
+.card-white {
+  background-color: white;
+  padding: 45px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius:5px;
+  margin: 25px 0px;
+  text-align: center;
+  border: 1px solid #a9c6d8;
+}
+
+.card-white p{
+  text-align: left;
+}
+
+.card-white:hover{
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+  border: 2px solid #a9c6d8;
+  transition: all 0.2s linear;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+.btn-blue {
+  background-color: #a9c6d8;
+  color: white;
+  text-decoration: none;
+  font-weight: 800;
+  padding: 15px 20px;
+  border-radius: 4px;
+  transition: all 0.2s linear;
+}
+
+.btn-blue:hover {
+  background-color: #6B72E1;
+  color: white;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+ }
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 40px;
+  color: #575F7D;
+  transition: all 0.2s linear;
+}
+.list-inline i:hover {
+  color: #6B72E1;
+}
+
+/* id design */
+#introduction p{
+  margin-bottom: 35px;
+}
