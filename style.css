@@ -31,7 +31,7 @@ a{
 }
 
 a:hover {
-  color:white;
+  color:rgb(235,235,235);
 }
 
 
@@ -176,7 +176,7 @@ a:hover {
   background-color: #a9c6d8;
   color: white;
   padding: 15px 20px;
-  transition: all 0.3s ease;
+  transition: all 0.3s ;
   font-weight: bold;
 }
 
@@ -188,6 +188,7 @@ a:hover {
     width: 170px;
   }
 
+
 @media (max-width: 950px) {
   .sidebar {
   left: -300px;
@@ -195,33 +196,9 @@ a:hover {
   padding: 0px;
   transition: all 0.3s ease;
   }
-  .page-content {
-    margin-left: 0;
-  } }
 
 
-.sidebar ul {
-  list-style: none;
-  padding-left: 0px;
-}
 
-.sidebar ul li {
-  margin-bottom: 15px;
-  color: white;
-  background-color: #a9c6d8;
-}
-
-.sidebar a {
-  color: white;
-  text-decoration: none;
-}
-
-.sidebar a:hover {
-  color:rgb(240,240,240);
-}
-
-
-}
 
 /* id design */
 #introduction p{
