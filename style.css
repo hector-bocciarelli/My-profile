@@ -176,7 +176,7 @@ a:hover {
   background-color: #a9c6d8;
   color: white;
   padding: 15px 20px;
-  transition: all 0.3s ;
+
   font-weight: bold;
 }
 
@@ -191,11 +191,11 @@ a:hover {
 
 @media (max-width: 950px) {
   .sidebar {
-  left: -300px;
-  width: 0px;
-  padding: 0px;
-  transition: all 0.3s ease;
-  }
+  visibility: hidden;
+}
+ .page-content{
+  margin-left: 0px;
+ }}
 
 
 
